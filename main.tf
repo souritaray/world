@@ -3,6 +3,7 @@ resource "null_resource" "example1" {
   provisioner "local-exec" {
     command = "echo Example Resource 1"
   }
+  value = var.example_number
 }
 
 # Dummy resource 2
@@ -10,6 +11,7 @@ resource "null_resource" "example2" {
   provisioner "local-exec" {
     command = "echo Example Resource 2"
   }
+  value = var.example_list
 }
 
 # Dummy resource 3
