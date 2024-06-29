@@ -1,17 +1,17 @@
 variable "example_string" {
   description = "An example string variable"
   type        = string
-  default     = "Hello, Terraform!"
+  default     = "Hello, default!"
 }
 
 variable "example_number" {
   description = "An example number variable"
   type        = number
-  default     = 42
+  default     = 00
 }
 
 variable "example_list" {
   description = "An example list variable"
   type        = list(string)
-  default     = ["one", "two", "three"]
+  default     = ["deafult", "tvar", "list"]
 }
