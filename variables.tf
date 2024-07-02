@@ -11,6 +11,7 @@ variable "example_number" {
 variable "example_list" {
   description = "An example list variable"
   type        = list(string)
+  default = ["default", "tf", "vars"]
 }
 
 variable "cond" {
