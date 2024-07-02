@@ -12,3 +12,8 @@ variable "example_list" {
   description = "An example list variable"
   type        = list(string)
 }
+
+variable "cond" {
+  description = "true/false value"
+  type        = bool
+}
