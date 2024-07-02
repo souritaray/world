@@ -12,6 +12,7 @@ output "example_list_value" {
 
 output "resource1_id" {
   value = null_resource.example1.id
+  condition = var.cond
 }
 
 output "resource2_id" {
